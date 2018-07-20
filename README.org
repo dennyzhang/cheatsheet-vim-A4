@@ -8,8 +8,12 @@
 #+ARCHIVE: %s_done::** Finished Tasks
 #+AUTHOR: dennyzhang.com (denny@dennyzhang.com)
 #+OPTIONS: toc:2 \n:t ^:nil creator:nil d:nil
+* TODO vim dotfile: git@github.com:pivotal-cf/oratos-dotfiles.git
+* TODO exit vim: C-z
+* TODO vim copy mess up: /Users/zdenny/Dropbox/private_data/work/vmware/code/pks-ci/tests/integration-tests/wavefront-proxy-release/wavefront-proxy/wavefront_proxy_test.go
 * TODO vim disable tab key: https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces/1878984#1878984
 * TODO vim copy block
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * DONE vim page up: Ctrl-B
   CLOSED: [2017-05-21 Sun 13:22]
 http://vim.wikia.com/wiki/All_the_right_moves
@@ -89,7 +93,6 @@ See :help {command} (for example, :help g_) for all of the above if you want mor
 
 
 #+END_EXAMPLE
-
 * DONE yum install vim-enhance
   CLOSED: [2013-03-26 Tue 13:43]
 
