@@ -1,5 +1,5 @@
 * org-mode configuration                                           :noexport:
-#+STARTUP: overview customtime noalign logdone hidestars
+#+STARTUP: overview customtime noalign logdone showall
 #+TITLE:  Vim CheatSheet
 #+DESCRIPTION: 
 #+KEYWORDS: 
@@ -28,15 +28,19 @@
 File me [[https://github.com/DennyZhang/cheatsheet-vim-A4/issues][Issues]] or star [[https://github.com/DennyZhang/cheatsheet-vim-A4][this repo]].
 
 See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][#denny-cheatsheets]]
-
 ** Basic Usage
-
 | Name                     | Summary           |
 |--------------------------+-------------------|
 | Enter to paste mode      | :set paste        |
 | Page up                  | =Ctrl-B=          |
 | Show current filename    | =:echo @%=        |
 | Password protecting file | =vim +X filename= |
+| Next panel               | =C-h=             |
+| Switch panel             | =C-w >=, =C-w <=  |
+| Copy block               | =shift+v, y=      |
+| Paste block              | =shift+v, p=      |
+| Cut block                | =shift+v, x=      |
+| Comment block            | =shift+v, gc=     |
 
 * More Resources
 License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
