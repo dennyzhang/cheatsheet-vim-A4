@@ -29,14 +29,19 @@ File me [[https://github.com/DennyZhang/cheatsheet-vim-A4/issues][Issues]] or st
 
 See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][#denny-cheatsheets]]
 ** Basic Usage
-| Name                     | Summary           |
-|--------------------------+-------------------|
-| Enter to paste mode      | :set paste        |
-| Page up                  | =Ctrl-B=          |
-| Show current filename    | =:echo @%=        |
-| Password protecting file | =vim +X filename= |
-| Next panel               | =C-h=             |
-| Switch panel             | =C-w >=, =C-w <=  |
+| Name                                   | Summary           |
+|----------------------------------------+-------------------|
+| Enter to paste mode                    | =:set paste=      |
+| Put vim to background, then foreground | =C-z=; =fg=       |
+| Page up                                | =Ctrl-B=          |
+| Password protecting file               | =vim +X filename= |
+
+** Panel
+| Name         | Summary          |
+|--------------+------------------|
+| Next panel   | =C-h=            |
+| Switch panel | =C-w >=, =C-w <= |
+
 ** Blocks
 | Name                     | Summary           |
 |--------------------------+-------------------|
@@ -44,6 +49,12 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 | Paste block              | =shift+v, p=      |
 | Cut block                | =shift+v, x=      |
 | Comment block            | =shift+v, gc=     |
+
+** Files
+| Name                     | Summary            |
+|--------------------------+--------------------|
+| Show current filename    | =:echo @%=         |
+| Open a new file          | =:edit <filename>= |
 
 * More Resources
 License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
@@ -130,14 +141,10 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
  ;   repeat above, in same direction
  ,   repeat above, in reverse direction
  See :help {command} (for example, :help g_) for all of the above if you want more details.
-
-
  #+END_EXAMPLE
 ** DONE yum install vim-enhance
    CLOSED: [2013-03-26 Tue 13:43]
-
 ** TODO vim dotfile: git@github.com:pivotal-cf/oratos-dotfiles.git
-** TODO exit vim: C-z
 ** TODO vim copy mess up: /Users/zdenny/Dropbox/private_data/work/vmware/code/pks-ci/tests/integration-tests/wavefront-proxy-release/wavefront-proxy/wavefront_proxy_test.go
 ** TODO vim disable tab key: https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces/1878984#1878984
-** TODO vim copy block
+** TODO Switch to next open file
