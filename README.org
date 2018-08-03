@@ -37,6 +37,9 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 | Password protecting file | =vim +X filename= |
 | Next panel               | =C-h=             |
 | Switch panel             | =C-w >=, =C-w <=  |
+** Blocks
+| Name                     | Summary           |
+|--------------------------+-------------------|
 | Copy block               | =shift+v, y=      |
 | Paste block              | =shift+v, p=      |
 | Cut block                | =shift+v, x=      |
