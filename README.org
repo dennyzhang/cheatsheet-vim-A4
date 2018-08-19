@@ -22,16 +22,21 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 ** Basic Usage
 | Name                                   | Summary           |
 |----------------------------------------+-------------------|
+| Show help                              | =:help=           |
 | Enter to paste mode                    | =:set paste=      |
 | Put vim to background, then foreground | =C-z=; =fg=       |
-| Page up                                | =Ctrl-B=          |
 | Password protecting file               | =vim +X filename= |
 
-** Panels
-| Name         | Summary          |
-|--------------+------------------|
-| Next panel   | =C-h=            |
-| Switch panel | =C-w >=, =C-w <= |
+** Movement
+| Name                 | Summary          |
+|----------------------+------------------|
+| Page up              | =Ctrl-B=         |
+| Next Line            | =Ctrl-n=         |
+| Previous Line        | =Ctrl-p=         |
+| Next panel           | =C-h=            |
+| Switch panel         | =C-w >=, =C-w <= |
+| Split panel          | =:split=         |
+| Vertical split panel | =:vsplit=        |
 
 ** Blocks
 | Name                     | Summary           |
@@ -156,3 +161,6 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
 ** TODO vim copy mess up: /Users/zdenny/Dropbox/private_data/work/vmware/code/pks-ci/tests/integration-tests/wavefront-proxy-release/wavefront-proxy/wavefront_proxy_test.go
 ** TODO vim disable tab key: https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces/1878984#1878984
 ** TODO Switch to next open file
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** TODO vim shortcut: switch panels
+** TODO vim shortcut: page down
