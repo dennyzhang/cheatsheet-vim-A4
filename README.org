@@ -31,6 +31,7 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 ** Movement
 | Name                 | Summary          |
 |----------------------+------------------|
+| Move to next word    | =w/W=            |
 | Page up              | =Ctrl-B=         |
 | Next Line            | =Ctrl-n=         |
 | Previous Line        | =Ctrl-p=         |
@@ -38,6 +39,12 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 | Switch panel         | =C-w >=, =C-w <= |
 | Split panel          | =:split=         |
 | Vertical split panel | =:vsplit=        |
+
+** Deletion
+| Name                | Summary |
+|---------------------+---------|
+| Delete current word | =d-w=   |
+| Delete current line | =d-d=   |
 
 ** Blocks
 | Name                     | Summary           |
@@ -165,3 +172,6 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** TODO vim shortcut: switch panels
 ** TODO vim shortcut: page down
+** TODO vim move to previous word
+** TODO vim delete to the end of the line
+** TODO vim c-w VS d-w
