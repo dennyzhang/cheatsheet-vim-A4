@@ -21,12 +21,13 @@ File me [[https://github.com/dennyzhang/cheatsheet-vim-A4/issues][Issues]] or st
 
 See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][#denny-cheatsheets]]
 ** Basic Usage
-| Name                                   | Summary           |
-|----------------------------------------+-------------------|
-| Show help                              | =:help=           |
-| Enter to paste mode                    | =:set paste=      |
-| Put vim to background, then foreground | =C-z=; =fg=       |
-| Password protecting file               | =vim +X filename= |
+| Name                                   | Summary                   |
+|----------------------------------------+---------------------------|
+| Show help                              | =:help=                   |
+| Enter to paste mode                    | =:set paste=              |
+| Put vim to background, then foreground | =C-z=; =fg=               |
+| Password protecting file               | =vim +X filename=         |
+| Install enhanced vim                   | =yum install vim-enhance= |
 
 ** Movement
 | Name                 | Summary          |
@@ -36,7 +37,6 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 | Next Line            | =Ctrl-n=         |
 | Previous Line        | =Ctrl-p=         |
 | Next panel           | =C-h=            |
-| Switch panel         | =C-w >=, =C-w <= |
 | Split panel          | =:split=         |
 | Vertical split panel | =:vsplit=        |
 
@@ -45,6 +45,11 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 |---------------------+---------|
 | Delete current word | =d-w=   |
 | Delete current line | =d-d=   |
+
+** Resize
+| Name              | Summary          |
+|-------------------+------------------|
+| Change panel size | =C-w >=, =C-w <= |
 
 ** Blocks
 | Name                     | Summary           |
@@ -71,7 +76,6 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
 #+END_HTML
 * org-mode configuration                                           :noexport:
 #+STARTUP: overview customtime noalign logdone showall
-#+TITLE:  Vim CheatSheet
 #+DESCRIPTION: 
 #+KEYWORDS: 
 #+AUTHOR: Denny Zhang
@@ -163,15 +167,7 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
  ,   repeat above, in reverse direction
  See :help {command} (for example, :help g_) for all of the above if you want more details.
  #+END_EXAMPLE
-** DONE yum install vim-enhance
-   CLOSED: [2013-03-26 Tue 13:43]
 ** TODO vim dotfile: git@github.com:pivotal-cf/oratos-dotfiles.git
 ** TODO vim copy mess up: /Users/zdenny/Dropbox/private_data/work/vmware/code/pks-ci/tests/integration-tests/wavefront-proxy-release/wavefront-proxy/wavefront_proxy_test.go
 ** TODO vim disable tab key: https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces/1878984#1878984
 ** TODO Switch to next open file
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** TODO vim shortcut: switch panels
-** TODO vim shortcut: page down
-** TODO vim move to previous word
-** TODO vim delete to the end of the line
-** TODO vim c-w VS d-w
