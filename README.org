@@ -33,15 +33,20 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 | Install enhanced vim                   | =yum install vim-enhance= |
 
 ** Movement
-| Name                 | Summary          |
-|----------------------+------------------|
-| Move to next word    | =w/W=            |
-| Page up              | =Ctrl-B=         |
-| Next Line            | =Ctrl-n=         |
-| Previous Line        | =Ctrl-p=         |
-| Next panel           | =C-h=            |
-| Split panel          | =:split=         |
-| Vertical split panel | =:vsplit=        |
+| Name                        | Summary                      |
+|-----------------------------+------------------------------|
+| forward/backward character  | =l=, =h=                     |
+| prevous/next line           | =k=, =Ctrl-p=; =j=, =Ctrl-n= |
+| Move to next word           | =w/W=                        |
+| Go to the top               | =gg=                         |
+| Go to the bottom            | =G=                          |
+| Go to beginning of the line | =B=                          |
+| Go to end of the line       | =0=                          |
+| Page up                     | =Ctrl-B=                     |
+| Previous Line               | =Ctrl-p=                     |
+| Next panel                  | =C-h=                        |
+| Split panel                 | =:split=                     |
+| Vertical split panel        | =:vsplit=                    |
 
 ** Deletion
 | Name                | Summary |
