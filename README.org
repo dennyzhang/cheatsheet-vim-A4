@@ -74,7 +74,7 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 | Open a new file          | =:edit <filename>= |
 
 #+BEGIN_HTML
-<a href="https://cheatsheet.dennyzhang.com/cheatsheet-vim-A4"><img align="left" src="https://raw.githubusercontent.com/DennyZhang/cheatsheet-vim-A4/master/images/vim_cheat_sheet_for_programmers_screen.png" /> </a>
+<a href="https://cheatsheet.dennyzhang.com/cheatsheet-vim-A4"><img align="left" src="https://raw.githubusercontent.com/dennyzhang/cheatsheet-vim-A4/master/images/vim_cheat_sheet_for_programmers_screen.png" /> </a>
 
 Image credit to http://michael.peopleofhonoronly.com/vim/
 #+END_HTML
