@@ -72,6 +72,13 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 |--------------------------+--------------------|
 | Show current filename    | =:echo @%=         |
 | Open a new file          | =:edit <filename>= |
+
+#+BEGIN_HTML
+<a href="https://cheatsheet.dennyzhang.com/cheatsheet-vim-A4"><img align="left" src="https://raw.githubusercontent.com/DennyZhang/cheatsheet-vim-A4/master/images/vim_cheat_sheet_for_programmers_screen.png" /> </a>
+
+Image credit to http://michael.peopleofhonoronly.com/vim/
+#+END_HTML
+
 ** More Resources
 License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
 #+BEGIN_HTML
