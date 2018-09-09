@@ -60,12 +60,12 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 | Change panel size | =C-w >=, =C-w <= |
 
 ** Blocks
-| Name                     | Summary           |
-|--------------------------+-------------------|
-| Copy block               | =shift+v, y=      |
-| Paste block              | =shift+v, p=      |
-| Cut block                | =shift+v, x=      |
-| Comment block            | =shift+v, gc=     |
+| Name                    | Summary       |
+|-------------------------+---------------|
+| Copy block              | =shift+v, y=  |
+| Paste block             | =shift+v, p=  |
+| Cut block               | =shift+v, x=  |
+| comment/uncomment block | =shift+v, gc= |
 
 ** Files
 | Name                     | Summary            |
