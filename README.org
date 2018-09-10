@@ -24,13 +24,13 @@ File me [[https://github.com/dennyzhang/cheatsheet-vim-A4/issues][Issues]] or st
 
 See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][#denny-cheatsheets]]
 ** Basic Usage
-| Name                                   | Summary                   |
-|----------------------------------------+---------------------------|
-| Show help                              | =:help=                   |
-| Enter to paste mode                    | =:set paste=              |
-| Put vim to background, then foreground | =C-z=; =fg=               |
-| Password protecting file               | =vim +X filename=         |
-| Install enhanced vim                   | =yum install vim-enhance= |
+| Name                             | Summary                   |
+|----------------------------------+---------------------------|
+| Show help                        | =:help=                   |
+| Enter to paste mode              | =:set paste=              |
+| Put vim to background/foreground | =C-z=; =fg=               |
+| Password protecting file         | =vim +X filename=         |
+| Install enhanced vim             | =yum install vim-enhance= |
 
 ** Movement
 | Name                        | Summary                      |
