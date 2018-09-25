@@ -1,4 +1,4 @@
-* Vim CheatSheet                                                     :Tools:
+* Vim CheatSheet                                                      :Tools:
 :PROPERTIES:
 :type:     vim
 :export_file_name: cheatsheet-vim-A4.pdf
@@ -16,9 +16,8 @@
 <a href="http://makeapullrequest.com" target="_blank" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
 #+END_HTML
 
-- PDF Link: [[https://github.com/dennyzhang/cheatsheet-vim-A4/blob/master/cheatsheet-vim-A4.pdf][cheatsheet-vim-A4.pdf]]
+- PDF Link: [[https://github.com/dennyzhang/cheatsheet-vim-A4/blob/master/cheatsheet-vim-A4.pdf][cheatsheet-vim-A4.pdf]], Category: [[https://cheatsheet.dennyzhang.com/category/tools/][tools]]
 - Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-vim-A4
-- Category: [[https://cheatsheet.dennyzhang.com/category/tools/][tools]]
 
 File me [[https://github.com/dennyzhang/cheatsheet-vim-A4/issues][Issues]] or star [[https://github.com/DennyZhang/cheatsheet-vim-A4][this repo]].
 
@@ -119,7 +118,7 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
 ** DONE vim page up: Ctrl-B
    CLOSED: [2017-05-21 Sun 13:22]
  http://vim.wikia.com/wiki/All_the_right_moves
- #+BEGIN_EXAMPLE
+#+BEGIN_EXAMPLE
 
   Vim Tips Wiki
  Community portal
@@ -192,7 +191,7 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
  ;   repeat above, in same direction
  ,   repeat above, in reverse direction
  See :help {command} (for example, :help g_) for all of the above if you want more details.
- #+END_EXAMPLE
+#+END_EXAMPLE
 ** TODO vim dotfile: git@github.com:pivotal-cf/oratos-dotfiles.git
 ** TODO vim copy mess up: /Users/zdenny/Dropbox/private_data/work/vmware/code/pks-ci/tests/integration-tests/wavefront-proxy-release/wavefront-proxy/wavefront_proxy_test.go
 ** TODO vim disable tab key: https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces/1878984#1878984
