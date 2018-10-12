@@ -30,34 +30,35 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 | Put vim to background/foreground | =C-z=; =fg=               |
 | Password protecting file         | =vim +X filename=         |
 | Install enhanced vim             | =yum install vim-enhance= |
-
 ** Movement
-| Name                        | Summary                      |
-|-----------------------------+------------------------------|
-| forward/backward character  | =l=, =h=                     |
-| prevous/next line           | =k=, =Ctrl-p=; =j=, =Ctrl-n= |
-| Move to next word           | =w/W=                        |
-| Go to the top               | =gg=                         |
-| Go to the bottom            | =G=                          |
-| Go to beginning of the line | =B=                          |
-| Go to end of the line       | =0=                          |
-| Page up                     | =Ctrl-B=                     |
-| Previous Line               | =Ctrl-p=                     |
-| Next panel                  | =C-h=                        |
-| Split panel                 | =:split=                     |
-| Vertical split panel        | =:vsplit=                    |
-
+| Name                        | Summary                       |
+|-----------------------------+-------------------------------|
+| Page down/up                | =C-d= /  =C-b=; =C-u= / =C-f= |
+| Forward/backward character  | =l=, =h=                      |
+| Prevous/next line           | =k=, =Ctrl-p=; =j=, =Ctrl-n=  |
+| Move to next word           | =w/W=                         |
+| Go to the top               | =gg=                          |
+| Go to the bottom            | =G=                           |
+| Go to beginning of the line | =B=                           |
+| Go to end of the line       | =0=                           |
 ** Deletion
-| Name                | Summary |
-|---------------------+---------|
-| Delete current word | =d-w=   |
-| Delete current line | =d-d=   |
-
-** Resize
-| Name              | Summary          |
-|-------------------+------------------|
-| Change panel size | =C-w >=, =C-w <= |
-
+| Name                 | Summary |
+|----------------------+---------|
+| Delete current word  | =d-w=   |
+| Delete current line  | =d-d=   |
+| Delete to the bottom | =d-G=   |
+** Changes
+| Name                      | Summary           |
+|---------------------------+-------------------|
+| Undo the previous changes | In view mode, =u= |
+| Reload file from disk     | =:e=              |
+** Panel
+| Name                 | Summary          |
+|----------------------+------------------|
+| Next panel           | =C-h=            |
+| Split panel          | =:split=         |
+| Vertical split panel | =:vsplit=        |
+| Change panel size    | =C-w >=, =C-w <= |
 ** Blocks
 | Name                    | Summary       |
 |-------------------------+---------------|
@@ -65,7 +66,6 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 | Paste block             | =shift+v, p=  |
 | Cut block               | =shift+v, x=  |
 | comment/uncomment block | =shift+v, gc= |
-
 ** Files
 | Name                     | Summary            |
 |--------------------------+--------------------|
@@ -77,7 +77,6 @@ See more CheatSheets from Denny: [[https://github.com/topics/denny-cheatsheets][
 
 Image credit to http://michael.peopleofhonoronly.com/vim/
 #+END_HTML
-
 ** More Resources
 License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
 #+BEGIN_HTML
@@ -90,8 +89,8 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
 #+END_HTML
 * org-mode configuration                                           :noexport:
 #+STARTUP: overview customtime noalign logdone showall
-#+DESCRIPTION: 
-#+KEYWORDS: 
+#+DESCRIPTION:
+#+KEYWORDS:
 #+LATEX_HEADER: \usepackage[margin=0.6in]{geometry}
 #+LaTeX_CLASS_OPTIONS: [8pt]
 #+LATEX_HEADER: \usepackage[english]{babel}
@@ -111,8 +110,8 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
 #+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+EXPORT_EXCLUDE_TAGS: exclude noexport
 #+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
-#+LINK_UP:   
-#+LINK_HOME: 
+#+LINK_UP:
+#+LINK_HOME:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * vim local                                                        :noexport:
 ** DONE vim page up: Ctrl-B
@@ -129,7 +128,7 @@ License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_lice
  Videos
  Images
  Chat
-  Contribute  
+  Contribute
  All the right moves
  1,625PAGES ON
  THIS WIKI Add New Page  Edit    Talk0 	Share
@@ -255,7 +254,7 @@ d{motion}       delete text that {motion} moves over
 :s/foo/bar/	replace the first match of 'foo' with 'bar' on the current line only
 :s/foo/bar/g	replace all matches (`g` flag) of 'foo' with 'bar' on the current line only
 :%s/foo/bar/g	replace all matches of 'foo' with 'bar' in the entire file (`:%s`)
-:%s/foo/bar/gc	ask to manually confirm (`c` flag) each replacement 
+:%s/foo/bar/gc	ask to manually confirm (`c` flag) each replacement
 
 # Preceding a motion or edition with a number repeats it 'n' times
 # Examples:
@@ -263,3 +262,16 @@ d{motion}       delete text that {motion} moves over
 2dw         deletes 2 words
 5yy         copies 5 lines
 42G         go to line 42
+
+** vim cheatsheet: https://www.cheatography.com/stepk/cheat-sheets/vim-nerdtree/
+** TODO vim c-o
+** TODO vim : %s/XXX/XXX/gc
+** TODO vim: G: join line
+** TODO vim c-p: search
+** TODO vim scheme issue
+** HALF vim: D, C
+** HALF vim b
+** HALF vim U(captilze), u(lowercase)
+** HALF vim v w
+** HALF C-h, C-l
+** HALF vim: C-o, C-i: buffer
