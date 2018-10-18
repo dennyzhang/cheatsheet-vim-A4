@@ -275,3 +275,4 @@ d{motion}       delete text that {motion} moves over
 ** HALF vim v w
 ** HALF C-h, C-l
 ** HALF vim: C-o, C-i: buffer
+* TODO vim: go to the end of the line                              :noexport:
