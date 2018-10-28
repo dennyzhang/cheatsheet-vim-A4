@@ -276,3 +276,15 @@ d{motion}       delete text that {motion} moves over
 ** HALF C-h, C-l
 ** HALF vim: C-o, C-i: buffer
 * TODO vim: go to the end of the line                              :noexport:
+* TODO vim :GoBuild                                                :noexport:
+* HALF [#A] vim copy issue                                         :noexport:
+> oratos-ci/tasks/sink-crosstalk/task && vim oratos-ci/tasks/sink-crosstalk/task
+bash oratos-ci/tasks/sink-crosstalk/task
+    result="$(echo "$ns_a_result" | jq '.namespace["crosstalk-ns-b"]' --join-output)"
+    check_result_cnt "$expected" "$result" \
+        "Expected syslog-receiver-crosstalk-ns-a to have value $expected for crosstalk-ns-b"
+
+
+    result="$(echo "$ns_a_result" | jq '.namespace["crosstalk-ns-b"]' --join-output)"
+    check_result_cnt "$expected" "$result" \
+        Expected syslog-receiver-crosstalk-ns-a to have value $expected for crosstalk-ns-b"
