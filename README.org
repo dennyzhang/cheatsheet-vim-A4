@@ -287,3 +287,4 @@ bash oratos-ci/tasks/sink-crosstalk/task
     result="$(echo "$ns_a_result" | jq '.namespace["crosstalk-ns-b"]' --join-output)"
     check_result_cnt "$expected" "$result" \
         Expected syslog-receiver-crosstalk-ns-a to have value $expected for crosstalk-ns-b"
+* TODO vim cheatsheet: https://jimmysong.io/cheatsheets/vim        :noexport:
