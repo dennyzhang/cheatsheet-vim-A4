@@ -288,3 +288,5 @@ bash oratos-ci/tasks/sink-crosstalk/task
     check_result_cnt "$expected" "$result" \
         Expected syslog-receiver-crosstalk-ns-a to have value $expected for crosstalk-ns-b"
 * TODO vim cheatsheet: https://jimmysong.io/cheatsheets/vim        :noexport:
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO [#A] vim paste issue: integration-tests/vrops-release/vrops_test.go :noexport:
